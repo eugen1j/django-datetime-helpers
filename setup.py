@@ -5,10 +5,10 @@ from shutil import rmtree
 from setuptools import setup, Command
 
 # Package meta-data.
-NAME = "beautifulsoup4_helpers"
-DESCRIPTION = "Frequently used functions for html parsing " \
-              "with beautifulsoup4 https://pypi.org/project/beautifulsoup4/"
-URL = "https://github.com/eugen1j/beautifulsoup4-helpers"
+NAME = "django_datetime_helpers"
+DESCRIPTION = "Frequently used functions and constants about datetime" \
+              " in Django projects"
+URL = "https://github.com/eugen1j/django-datetime-helpers"
 EMAIL = "eugenij.bondar@gmail.com"
 AUTHOR = "eugen1j"
 REQUIRES_PYTHON = ">=3.7.0"
@@ -58,7 +58,7 @@ setup(
     author=AUTHOR,
     packages=[NAME],
     install_requires=[
-        "beautifulsoup4",
+        "django",
     ],
     description=DESCRIPTION,
     long_description=long_description,
@@ -70,9 +70,8 @@ setup(
     license="MIT",
     keywords="""
         python3
-        beautifulsoup4_helpers
-        parser
-        html
+        django
+        datetime
     """,
     python_requires=REQUIRES_PYTHON,
     zip_safe=False,

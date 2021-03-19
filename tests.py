@@ -1,7 +1,8 @@
-from datetime import time, datetime, date, timedelta
+from datetime import time, datetime, date
 from unittest.mock import patch
 
-from django_datetime_helpers import time_to_int, today, yesterday, random_time, seconds_ago
+from django_datetime_helpers.helpers import (
+    time_to_int, today, yesterday, random_time, seconds_ago)
 
 
 def fake_now():
