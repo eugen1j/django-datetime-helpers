@@ -1,6 +1,6 @@
 # django-datetime-helpers
 
-[![Build Status](https://travis-ci.org/eugen1j/django-datetime-helpers.svg?branch=master)](https://travis-ci.org/eugen1j/django-datetime-helpers)
+[![Build Status](https://travis-ci.com/eugen1j/django-datetime-helpers.svg?branch=master)](https://travis-ci.com/eugen1j/django-datetime-helpers)
 [![codecov](https://codecov.io/gh/eugen1j/django-datetime-helpers/branch/master/graph/badge.svg?token=AE62KEYZHD)](https://codecov.io/gh/eugen1j/django-datetime-helpers)
 [![PyPI version](https://badge.fury.io/py/django-datetime-helpers.svg)](https://badge.fury.io/py/django-datetime-helpers)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/eugen1j/django-datetime-helpers/blob/master/LICENSE)
