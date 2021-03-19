@@ -1,0 +1,8 @@
+django>=3.0.0
+codecov
+pytest-cov
+mypy
+flake8
+pylint
+wheel
+twine
